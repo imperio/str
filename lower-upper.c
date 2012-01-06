@@ -29,7 +29,7 @@ void tumukucuk(char s[])
 void sadeceilkharfibuyuk(char s[])
 {
      int i;
-     s[0]=islower(s[i]) ? putchar(toupper(s[0])) : putchar(s[i]);
+     s[0]=islower(s[0]) ? putchar(toupper(s[0])) : putchar(s[0]);
      for(i=1;s[i]!='\0';i++)
      s[i]=isupper(s[i]) ? putchar(tolower(s[i])) : putchar(s[i]);
      }
