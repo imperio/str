@@ -50,7 +50,7 @@ int main()
     printf("Girilen kelimenin buyuk harflerini kucuk,kucuk harflerini buyuk yapmak icin '1' girin\n");
     printf("Girilen kelimenin tum harflerini kucuk yapmak icin '2'girin\n");
     printf("Girilen kelimenin tum harflerini buyuk yapmak icin '3'girin\n");
-    printf("Girilen kelimenin ilk harflerini buyuk yapmak icin '4'girin\n");
+    printf("Girilen kelimenin sadece ilk harfini buyuk yapmak icin '4'girin\n");
     scanf("%d",&x);
     
     switch(x){
